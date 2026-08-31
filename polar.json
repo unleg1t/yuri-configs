@@ -1,0 +1,906 @@
+{
+  "Modules": {
+    "Timer": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Mode": "PULSE",
+        "Time Amount": 1.0,
+        "Time Amount 2": 1.399999976158142
+      }
+    },
+    "Camera": {
+      "toggled": true,
+      "hidden": false,
+      "Properties": {
+        "Style": "OLD",
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0,
+        "Scale": 1.0,
+        "Slowdown": 1.0,
+        "Flux Swing": false,
+        "Dont Reset Block": false,
+        "Swing While Eating": true,
+        "No Hurt Camera": true,
+        "No Fire Overlay": true,
+        "No Blindness": true,
+        "No Boss Bar": true,
+        "Full Bright": false
+      }
+    },
+    "Item ESP": {
+      "toggled": false,
+      "hidden": false
+    },
+    "Yuri Chat": {
+      "toggled": false,
+      "hidden": false
+    },
+    "Chams": {
+      "toggled": true,
+      "hidden": false,
+      "Properties": {
+        "Tile Entities": false
+      }
+    },
+    "Eagle": {
+      "toggled": true,
+      "hidden": false,
+      "Properties": {
+        "Delay": 50.0,
+        "Block Check": true,
+        "Direction Check": true
+      }
+    },
+    "Aura": {
+      "toggled": true,
+      "hidden": false,
+      "Properties": {
+        "Targets": [
+          "PLAYERS",
+          "TEAMMATES",
+          "INVISIBLES",
+          "HOSTILES",
+          "ANIMALS"
+        ],
+        "Mode": "ADAPTIVE",
+        "Seek Range": 6.0,
+        "Simulate Mouse Clicks": true,
+        "Attack Range": 3.0,
+        "Swing Range": 6.0,
+        "Block Range": 6.0,
+        "Min CPS": 9.0,
+        "Max CPS": 13.5,
+        "Auto Block": "FAKE",
+        "Only Block If Hurt": false,
+        "Block On Hurt Ticks": 4.0,
+        "Through Walls": false,
+        "Rotations": "POLAR",
+        "Min Rotation Speed": 0.5,
+        "Max Rotation Speed": 1.0,
+        "Body Ease": 0.12999999523162842,
+        "ML Ease": 0.23000000417232513,
+        "Advanced Polar": true,
+        "Noise Scale": 8.0,
+        "Warp Strength": 0.5,
+        "Noise Octaves": 6.0,
+        "Flick Chance": 50.0,
+        "Ray Cast": false,
+        "Move Fix": "SILENT",
+        "Keep Sprint": false,
+        "Hypixel Keep Sprint": false,
+        "Auto Disable": true
+      }
+    },
+    "Lag Range": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Mode": "LAG",
+        "Min Range": 3.5,
+        "Max Range": 4.2,
+        "Min Delay": 50.0,
+        "Max Delay": 200.0,
+        "Delay Teleports": true,
+        "Delay Velocity": true,
+        "Delay Entity Movements": true,
+        "Only With Kill Aura": true,
+        "Render Lag Pos": true
+      }
+    },
+    "Item Delays": {
+      "toggled": true,
+      "hidden": false,
+      "Properties": {
+        "Delay": 1.0,
+        "Allow Blocks": true,
+        "Allow Projectiles": true
+      }
+    },
+    "Auto Swap": {
+      "toggled": true,
+      "hidden": false,
+      "Properties": {
+        "Sneak Only": false,
+        "Swap Mode": "CLIENT"
+      }
+    },
+    "Watermark": {
+      "toggled": true,
+      "hidden": false,
+      "Properties": {
+        "Type": "YURI",
+        "Client Name": "Yuri",
+        "Protocol": true,
+        "Time": true,
+        "FPS": true,
+        "Ping": true,
+        "TPS": true
+      }
+    },
+    "Back Track": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Min Range": 1.0,
+        "Max Range": 4.0,
+        "Max Delay": 250.0,
+        "Only Kill Aura": true
+      }
+    },
+    "Client Info": {
+      "toggled": true,
+      "hidden": false,
+      "Properties": {
+        "FPS": true,
+        "Speed": true,
+        "Coords": true
+      }
+    },
+    "Breadcrumbs": {
+      "toggled": false,
+      "hidden": false
+    },
+    "Ambience": {
+      "toggled": true,
+      "hidden": false,
+      "Properties": {
+        "Real World Time": false,
+        "Time": 14800.0
+      }
+    },
+    "No Fall": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Mode": "MLG"
+      }
+    },
+    "Target ESP": {
+      "toggled": true,
+      "hidden": false,
+      "Properties": {
+        "Mark Mode": "GHOST",
+        "Image Mode": "TRIANGLESTIPPLE",
+        "Only Players": true
+      }
+    },
+    "Stasis": {
+      "toggled": false,
+      "hidden": false
+    },
+    "Friends": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Mid-Click Add": true
+      }
+    },
+    "Step": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Mode": "VANILLA",
+        "Height": 1.0
+      }
+    },
+    "Auto Pot": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Health": 15.0,
+        "Delay": 50.0
+      }
+    },
+    "W Tap": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Chance": 100.0
+      }
+    },
+    "Zombie Aim": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Silent": true,
+        "Show Prediction": true,
+        "Show FOV": true,
+        "Auto Heal": true,
+        "Auto Revive": true,
+        "Auto Ammo": false,
+        "Hud": true,
+        "Prediction Scale": 1.0,
+        "Prediction Ticks": 2.0,
+        "Delay": 4.0,
+        "Buffer": 3.0,
+        "FOV": 60.79999923706055,
+        "Health": 3.0,
+        "Aimbot Mode": "AUTO_FIRE",
+        "Hitbox": "HITSCAN_HEAD",
+        "Priority": "CLOSEST"
+      }
+    },
+    "Sprint": {
+      "toggled": true,
+      "hidden": false,
+      "Properties": {
+        "Cancel Invis": false
+      }
+    },
+    "Image Renderer": {
+      "toggled": true,
+      "hidden": false,
+      "Properties": {
+        "Image": "YURI_NSFW",
+        "URL": "",
+        "Size": 150.0
+      }
+    },
+    "Velocity": {
+      "toggled": true,
+      "hidden": false,
+      "Properties": {
+        "Mode": "LEGIT",
+        "Ignore On Fire": true,
+        "Velocity X Modifier": 0.0,
+        "Velocity Y Modifier": 1.0,
+        "Velocity Z Modifier": 0.0,
+        "Reduce": true,
+        "Attack Times": 5.0,
+        "Only Sprinting": true,
+        "Reduce When Can Attack": true
+      }
+    },
+    "Auto Play": {
+      "toggled": true,
+      "hidden": false
+    },
+    "ESP": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Mode": "CORNERS",
+        "Health Bars": true,
+        "Held Item": true,
+        "Chest ESP": true,
+        "Render Self": true,
+        "Health Bar Left Align": true,
+        "ESP Outline": true,
+        "Health Outline": true,
+        "ESP BG": false,
+        "ESP Line Width": 2.0,
+        "ESP Outline Width": 2.0,
+        "ESP Outline Alpha": 1.0,
+        "ESP BG Alpha": 0.2,
+        "Health Line Width": 2.0,
+        "Health Line Alpha": 1.0,
+        "Health Outline Width": 0.699999988079071,
+        "Health Outline Alpha": 1.0,
+        "Health BG Alpha": 0.5,
+        "Held Item Custom Font": false,
+        "Held Item Scale": 0.800000011920929,
+        "Held Item BG": true,
+        "Held Item BG Alpha": 0.5
+      }
+    },
+    "Auto Extinguish": {
+      "toggled": false,
+      "hidden": false
+    },
+    "Long Jump": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Fireball": true,
+        "Fireball Mode": "LEGIT",
+        "Mode": "MOSPIXEL",
+        "Delay": 400.0
+      }
+    },
+    "Scaffold": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Mode": "GOD_BRIDGE",
+        "Hypixel Telly": false,
+        "Telly Straight Ticks": 1.0,
+        "Telly Diagonal Ticks": 1.0,
+        "Telly Jump Down Ticks": 1.0,
+        "Rotations": "RANDOMIZED",
+        "Randomized Speed Min": 10.0,
+        "Randomized Speed Max": 10.0,
+        "Search Algorithm": "NORMAL",
+        "Min Rotation Speed": 1.5,
+        "Max Rotation Speed": 2.0,
+        "Place Delay": 2.0,
+        "Ray Cast": "STRICT",
+        "Swap Mode": "CLIENT",
+        "Sprint Mode": "NONE",
+        "Tower Mode": "POLAR",
+        "Tower Move": false,
+        "Move Fix": true,
+        "Auto Jump": false,
+        "Keep Y": false,
+        "Sneak": false,
+        "Sneak Every": 6.0,
+        "Safe Walk": false,
+        "Expand": 0.0,
+        "Block Counter": "BAR"
+      }
+    },
+    "Input Fixes": {
+      "toggled": true,
+      "hidden": false
+    },
+    "Auto Projectile": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Target Range": 4.0,
+        "Swap Mode": "CLIENT"
+      }
+    },
+    "Stealer": {
+      "toggled": true,
+      "hidden": false,
+      "Properties": {
+        "Instant": false,
+        "Steal Delay": 50.0,
+        "Min Delay": 100.0,
+        "Max Delay": 150.0,
+        "Steal Trash Items": false,
+        "Auto Close": true,
+        "Check Chest Name": true,
+        "Grab Mouse": false,
+        "Auto Disable": false
+      }
+    },
+    "Inv Move": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Mode": "VANILLA"
+      }
+    },
+    "Skeletons": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Render Self": true,
+        "Use Client Colors": true,
+        "Skeletons Width": 1.0
+      }
+    },
+    "Motion Blur": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Blur Amount": 6.0
+      }
+    },
+    "Auto Auth": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Password": "yuri420",
+        "Double Password": true
+      }
+    },
+    "Target HUD": {
+      "toggled": true,
+      "hidden": false,
+      "Properties": {
+        "Mode": "YURI",
+        "Grid": false,
+        "Show Previous": false
+      }
+    },
+    "Hit Select": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Mode": "BASIC",
+        "Chance": 100.0,
+        "Delay": 30.0
+      }
+    },
+    "Mod List": {
+      "toggled": true,
+      "hidden": false,
+      "Properties": {
+        "Background": true,
+        "Background Opacity": 103.0,
+        "Outline": true,
+        "Line": false,
+        "Hide Visuals": true,
+        "Hide Misc": true,
+        "Use Custom Font": true,
+        "Hide Suffix": false,
+        "Suffix Mode": "SPACE",
+        "No Spaces": false,
+        "Lowercase": false,
+        "Bold": false,
+        "Color Mode": "FADE",
+        "Padding": 0.5,
+        "Offset": 3.0,
+        "Line Width": 0.5
+      }
+    },
+    "Trajectories": {
+      "toggled": true,
+      "hidden": false
+    },
+    "Phase": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Mode": "NORMAL"
+      }
+    },
+    "Auto Armor": {
+      "toggled": true,
+      "hidden": false,
+      "Properties": {
+        "Delay": 0.0,
+        "Stop when moving": true,
+        "Inventory only": true
+      }
+    },
+    "Anti Bot": {
+      "toggled": true,
+      "hidden": false,
+      "Properties": {
+        "Tablist Check": true,
+        "Check Valid Name": true,
+        "Check Age": true,
+        "Check Latency": true,
+        "FOV Check": true,
+        "Max FOV": 180.0
+      }
+    },
+    "Storage ESP": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Chests": true,
+        "Ender Chests": true,
+        "Through Walls": true,
+        "Filled": false,
+        "Outline": false,
+        "Line Width": 5.0,
+        "Alpha": 0.25
+      }
+    },
+    "Fast Break": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Speed": 15.0,
+        "Delay": 0.0
+      }
+    },
+    "Water Walk": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Mode": "VANILLA"
+      }
+    },
+    "Capes": {
+      "toggled": true,
+      "hidden": false,
+      "Properties": {
+        "Cape": "YURI"
+      }
+    },
+    "Refill": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Auto Close": true
+      }
+    },
+    "Shader ESP": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Mode": "OUTLINE"
+      }
+    },
+    "Block In": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Rotation Speed": 5.0
+      }
+    },
+    "Disabler": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Mode": [
+          "HYPIXEL_INV"
+        ]
+      }
+    },
+    "Speed": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Mode": "LEGIT",
+        "Speed": 0.9
+      }
+    },
+    "Regen": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Minimum Health": 15.0,
+        "Speed": 20.0
+      }
+    },
+    "Hotbar": {
+      "toggled": true,
+      "hidden": false,
+      "Properties": {
+        "Mode": "YURI"
+      }
+    },
+    "Target Strafe": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Range": 1.0,
+        "Hold Jump": false
+      }
+    },
+    "Bow Aimbot": {
+      "toggled": true,
+      "hidden": false,
+      "Properties": {
+        "Targets": [
+          "PLAYERS",
+          "TEAMMATES",
+          "INVISIBLES",
+          "HOSTILES",
+          "ANIMALS"
+        ],
+        "Mode": "DISTANCE",
+        "Range": 256.0,
+        "Lock View": false,
+        "Min Rotation Speed": 3.0,
+        "Max Rotation Speed": 7.0,
+        "Through Walls": false
+      }
+    },
+    "Discord RPC": {
+      "toggled": true,
+      "hidden": false,
+      "Properties": {
+        "Show Server": true,
+        "Show Timestamp": true
+      }
+    },
+    "Post Processing": {
+      "toggled": true,
+      "hidden": false,
+      "Properties": {
+        "Blur": true,
+        "Blur Radius": 12.0,
+        "Blur Compression": 0.800000011920929,
+        "Bloom": false,
+        "Bloom Radius": 3.0,
+        "Bloom Offset": 1.0,
+        "Bloom Strength": 1.100000023841858,
+        "Shadow": true,
+        "Shadow Strength": 1.2000000000000002
+      }
+    },
+    "Derp": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Mode": "CLIENT",
+        "Pitch": 90.0,
+        "Rotation Speed": 2.0,
+        "Move Fix": true
+      }
+    },
+    "Astolfo Pentagram": {
+      "toggled": false,
+      "hidden": false
+    },
+    "Breaker": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Break Mode": "HYPIXEL",
+        "Breaker Range": 3.0,
+        "Visual Swing": true,
+        "Move Fix": true,
+        "Whitelist": true,
+        "Progress Bar": true
+      }
+    },
+    "Scoreboard": {
+      "toggled": true,
+      "hidden": false,
+      "Properties": {
+        "Scoreboard Style": "VANILLA",
+        "Yuri Rect": true,
+        "Custom Font": true,
+        "Smart Y": false
+      }
+    },
+    "Name Tags": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Render Self": true,
+        "Background": true,
+        "Background Opacity": 0.4,
+        "Custom Font": false,
+        "Scale": 0.800000011920929
+      }
+    },
+    "Tick Base": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Delay": 20.0,
+        "Only With Kill Aura": true
+      }
+    },
+    "China Hat": {
+      "toggled": true,
+      "hidden": false,
+      "Properties": {
+        "Quality": "NORMAL",
+        "Color Mode": "NORMAL",
+        "Show In First Person": false,
+        "Rotate": true
+      }
+    },
+    "Damage Effects": {
+      "toggled": true,
+      "hidden": false
+    },
+    "Bed Defender": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Range": 5.0,
+        "Place Delay": 80.0,
+        "Speed": 100.0,
+        "Rotation Tolerance": 35.0,
+        "Swing": true,
+        "Show Progress": true,
+        "Move Fix": true
+      }
+    },
+    "Fast Use": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Speed": 15.0,
+        "Food Items": true,
+        "Potion Items": true,
+        "Bow Items": true
+      }
+    },
+    "Auto Apple": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Health": 15.0,
+        "Delay": 50.0
+      }
+    },
+    "ClickGUI": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Color": "YURI",
+        "Color Speed": 2.0,
+        "Mode": "IMGUI",
+        "Style": "AMETHYST",
+        "Close Previous": true,
+        "Logo In GUIS": false
+      }
+    },
+    "Criticals": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Mode": "PACKET",
+        "On Ground Check": true
+      }
+    },
+    "Manager": {
+      "toggled": true,
+      "hidden": false,
+      "Properties": {
+        "Instant": false,
+        "Inv Only": true,
+        "Send Inv Packets": true,
+        "Not Moving": false,
+        "Swap Blocks": true,
+        "Drop Archery": false,
+        "Move Arrows": true,
+        "Drop Food": false,
+        "Drop Shears": true,
+        "Manage Weapon": true,
+        "Manage Pickaxe": true,
+        "Manage Axe": true,
+        "Manage Shovel": true,
+        "Manage Bow": true,
+        "Manage Blocks": true,
+        "Manage Gapple": true,
+        "Manage Potion": true,
+        "Manage Clutch": false,
+        "Manage Projectile": true,
+        "Delay": 80.0,
+        "Weapon Slot": 1.0,
+        "Pickaxe Slot": 2.0,
+        "Axe Slot": 3.0,
+        "Shovel Slot": 4.0,
+        "Bow Slot": 5.0,
+        "Block Slot": 6.0,
+        "Gapple Slot": 7.0,
+        "Potion Slot": 8.0,
+        "Clutch Slot": 9.0,
+        "Projectile Slot": 9.0
+      }
+    },
+    "Blink": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Mode": "CONSTANT",
+        "Delay": 20.0,
+        "Cancel Received Packets": true,
+        "Render Blink Pos": true
+      }
+    },
+    "Halloween Simulator": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Range": 4.5,
+        "Rotation Speed": 10.0
+      }
+    },
+    "No Slow": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Mode": "VANILLA",
+        "Food Items": true,
+        "Potion Items": true,
+        "Sword Items": true,
+        "Bow Items": true
+      }
+    },
+    "Session Info": {
+      "toggled": true,
+      "hidden": false,
+      "Properties": {
+        "Mode": "YURI"
+      }
+    },
+    "Fake Lag": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Delay": 200.0,
+        "Delay Teleports": true,
+        "Delay Velocity": true,
+        "Delay Entity Movements": true,
+        "Render Lag Pos": true
+      }
+    },
+    "Effects": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Hearts": true,
+        "Hearts Spawn Rate": 500.0,
+        "Hearts Lifetime": 2900.0,
+        "Dots": true,
+        "Dots Spawn Rate": 200.0,
+        "Dots Lifetime": 3600.0,
+        "Pulse": false,
+        "Only While Moving": true,
+        "Opacity": 85.0,
+        "Bed Burst": true,
+        "Bed Burst Count": 20.0,
+        "Bed Burst Size": 0.2,
+        "Bed Burst Speed": 2.5,
+        "Bed Burst Lifetime": 1500.0,
+        "Rainbow": true,
+        "Rainbow Line Width": 5.0,
+        "Rainbow Duration": 3000.0,
+        "Bed Sound": true
+      }
+    },
+    "Safe Walk": {
+      "toggled": false,
+      "hidden": false
+    },
+    "Media Info": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Mode": "YURI"
+      }
+    },
+    "Flight": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Mode": "MOTION",
+        "Motion Speed": 0.9
+      }
+    },
+    "Anti Fireball": {
+      "toggled": false,
+      "hidden": false
+    },
+    "Anti Void": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Mode": "VANILLA",
+        "Distance": 5.0
+      }
+    }
+  },
+  "Dragging": {
+    "ImageRenderer": {
+      "x": 240.0,
+      "y": 353.0
+    },
+    "MediaInfo": {
+      "x": 3.0,
+      "y": 121.0
+    },
+    "TargetHud": {
+      "x": 408.0,
+      "y": 267.4
+    },
+    "SessionInfo": {
+      "x": 3.0,
+      "y": 21.0
+    },
+    "YuriChat": {
+      "x": 582.0,
+      "y": 379.0
+    }
+  },
+  "RotationPreset": {
+    "name": "legit",
+    "data": "MC40Njg3NSwyLjM0Mzc1CjEuMTk3OTA2NSwtNC4wMTA0MTY1CjguMDE1MzIsMS4wNjk1MzA1CjMuNzUsLTQuNjg3NQoyLjkyMzc5NzYsLTEuNDY5MDY5NQotMTYuMDkzNzUsLTcuMjM5NTg0Ci03LjI4ODY2NiwtMy4xMzEwMDI0CjguNzUxODEyLDQuMzc3NDI2CjE2LjA2NzgxNCwtNi41NTQzNTU2Ci0yNi4yNSwyLjgxMjUKLTkuNzgwOTUyLC0wLjU3NzQxNzg1CjIuMDk2NTM3NiwtMy4zMTI0MTgKLTEuNjg1OTU4OSwtMy40NDIwMDEzCjEuNzE4NzUsMy4xMjUKLTIuMzQzNzUsMS44NzUKLTExLjY2ODE2MywtNC4wMjQ0NTgKLTAuMzU0MjI4OTcsNC4zOTc2NDgKLTEyLjI3MTYwMSwtMC41Mjg0NTE5CjIxLjYzMzE0NCwtNC42MTM4ODYKLTEuNzA5MTE0MSwtMi43ODA0MDUKLTguOTA2MjUsMjMuNTkzNzUKOS43NDUzNzcsLTMuNTcyNTMyNwo1LjE1NjI1LC0xLjQwNjI1CjEuMDkzNzUsMTYuODc1CjIuMTk3MTEzLC0yLjU5NjgzNgotMi42Njc1MTEsLTQuMjI1NTU5Ci0xNy4zOTIyNDIsLTMuNjYzMzYwNgowLjE4NDU3Nzk0LDAuMjQxMDA0OTQKNi43MjkxMjYsLTEuMzU3NzY1MgotMi4zMzQ5NjEsOC40OTUxNzYKLTAuMzI3MjQsMi40OTE4MjkK"
+  }
+}
